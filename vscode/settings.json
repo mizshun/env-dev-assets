@@ -1,0 +1,16 @@
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
+{
+    // フォント サイズをピクセル単位で制御します。
+    "editor.fontSize": 12,
+    // 垂直ルーラーを表示する列
+    "editor.rulers": [40, 80, 120, 160, 200],
+    // エディターで次の行に折り返される文字数を制御します。これを 0 に設定すると、ビューポートの幅での折り返しがオンになります (ワード ラップ)。これを -1 に設定するとエディターによる折り返しが禁止されます。
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Monokai",
+    "vim.disableAnnoyingNeovimMessage": true,
+    "editor.renderWhitespace": "all",
+    "editor.fontFamily": "'MigMix 2M', monospace",
+    "editor.tabSize": 2,
+    "editor.renderControlCharacters": true,
+    "files.associations": { "*.tpl": "php" }
+}
